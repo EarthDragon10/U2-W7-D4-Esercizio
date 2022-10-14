@@ -20,6 +20,8 @@ function showTitleFilm(objJSON) {
 
 	// console.log(titleCard);
 
+	// Prova ad usare con il for of per il ciclo
+
 	for (let i = 0; i < titleCard.length; i++) {
 		titleCard[i].innerHTML = `Titolo del film: ${objJSON[i].title}`;
 	}
